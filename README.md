@@ -1,3 +1,4 @@
+# to push to this repo do git push github master
 snipMate & UltiSnip Snippets
 ============================
 
