@@ -11,7 +11,7 @@ fn main() {
 endsnippet
 
 snippet let "let name[:type]=exp (let)"
-let ${1:name}${2::type}= ${3:expression};
+let ${1:name}:${2:type}= ${3:expression};
 endsnippet
 
 snippet if "if ... (if)"
@@ -82,11 +82,11 @@ while ${1:condition} {
 }
 endsnippet
 
-snippet prlnexp "println ... (println)"
-println!("{}", ${1});${0}
+snippet px "println ... (println)"
+println!("$1 : {}", ${1});
 endsnippet
 
-snippet prlns "println ... (println)"
+snippet p "println ... (println)"
 println!("${1}");${0}
 endsnippet
 
